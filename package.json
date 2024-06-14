@@ -1,0 +1,17 @@
+{
+  "name": "fbi-system",
+  "version": "1.0.0",
+  "description": "Authorization handling",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon --env-file=.env index.js"
+  },
+  "author": "FS-G69",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
